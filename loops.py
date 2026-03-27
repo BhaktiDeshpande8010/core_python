@@ -28,16 +28,17 @@ for o in range(1,30) :
     if o % 2 !=0 :
         print(o)
 
+
 # pyramid
+for p in range(1,6) :
+    print("*" * p)
+print()
 
 
+# reverse pyramid
+for r in range(5,0,-1) :
+    print("*" * r)
 
-
-# # while LOOP
-# k=2
-# while(k<=10):
-#     print(k,end=" ")
-#     k=k+1
 
 
 
