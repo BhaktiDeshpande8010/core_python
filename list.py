@@ -44,7 +44,6 @@ sub.append(score)
 print(score)
 
 
-
 # list
 fruit=["banana","orange","pineapple"]
 fruit.clear()
