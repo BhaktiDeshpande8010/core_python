@@ -1,0 +1,4 @@
+Hello welcome to file handling topic
+123456
+abcsdgscs
+Hiee python
