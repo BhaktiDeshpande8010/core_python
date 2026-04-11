@@ -1,4 +1,5 @@
 list11=[56,76.65,"Hello",True,"a"]
+
 print(list11)
 print(type(list11))
 
@@ -8,7 +9,7 @@ list2=list([65,89,78,56,89])
 print(list2)
 print(type(list2))
 
-# addition
+# addition/contcatination
 list3=list11+list2
 print(list3)
 
