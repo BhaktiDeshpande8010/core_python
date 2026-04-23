@@ -8,7 +8,7 @@ print(dict1.values())
 print("first name is",dict1[1])
 print("last name is",dict1[4])
 
-# print("last name is",dict1["four"]) # (When in string will work)
+# print("last name is",dict1["four"]) # (When key is also a string then this will work)
 
 
 a=dict1.get(2)
