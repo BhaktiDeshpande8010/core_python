@@ -1,2 +1,2 @@
-def show(name):
-    print("i am,name")
+def add():
+    print("This is Addition")

@@ -37,4 +37,3 @@ print(t[1:])  # (from index 1 to last will print)
 
 # len = number of elemnts
 print(len(t))
-
