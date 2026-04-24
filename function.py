@@ -11,8 +11,17 @@ def add1(a,b):
 add1(80,30)
 
 
+# required augment
+def sub1(a,b):
+    print(a-b)
 
+add1(80,30)
 
+# keyword aurgment
+def python (name,age,city):
+    print(name,age,city)
+
+python(age=56,name="ram",city="pune")   
 
 # str1 = "Python is easy to learn"
 
