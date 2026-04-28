@@ -61,4 +61,5 @@ print(str8)
 str9=tem.count('n')
 print(str9)
 
-str10=tem.count
+str10=tem.count("is",7,14)
+print(str10)
