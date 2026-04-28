@@ -6,7 +6,7 @@ class Payment(ABC):
 
         @abstractclassmethod
         def payment(self):
-            print("a")
+            print("a")    
 
 class credit(Payment):
     def payment(self,amount):
@@ -14,4 +14,4 @@ class credit(Payment):
 
 c=credit()
 c.payment(1000)
-c.print_slip(2000)
+c.print_slip(5000)
