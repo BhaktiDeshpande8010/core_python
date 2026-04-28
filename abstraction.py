@@ -6,7 +6,7 @@ class Payment(ABC):
 
         @abstractclassmethod
         def payment(self):
-            print("a")    
+            print("a")      #this section will not get print this is the abstract code the hidded  one
 
 class credit(Payment):
     def payment(self,amount):
