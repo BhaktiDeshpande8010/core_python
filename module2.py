@@ -5,3 +5,10 @@ print("welcom to add web")
 
 add()       #importning Add() function from test_module file and running this file 
 test_module.sub()
+
+
+name=input("What is your name?")
+test_module.show(name)
+
+
+print(person["age"])
