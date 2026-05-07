@@ -49,8 +49,8 @@ c=cravita()
 
 
 
-print("---------------")
-# Public Access Modifier
+print("-----------------")
+
 class Student:
     name = ""
     rollno = 0
