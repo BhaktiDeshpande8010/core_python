@@ -1,2 +1,2 @@
 def trip_lunch():
-    print("lunch is included in package")
+    print("lunch is included in package lunch for all ")

@@ -1,2 +1,2 @@
 def trip_travel():
-    print("travel is included in package")
+    print("travel is included in package ")

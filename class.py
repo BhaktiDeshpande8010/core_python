@@ -17,7 +17,7 @@ print(b.name)
 
 class xyz:
     id=0
-    name=""
+    name= ""
 
 setattr(xyz,'id',101)
 setattr(xyz,'name',"arjun")        # setattr is used to set the value
