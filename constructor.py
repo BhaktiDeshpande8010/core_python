@@ -37,3 +37,16 @@ A.show()
 
 a.id=102
 a.name="Java"
+
+# default
+class car:
+    def __init__(self):
+        self.make="toyata"
+        self.model="corolla"
+        self.year = 2020
+    
+c=car()
+print(c.make)
+print(c.model)
+print(c.year)
+              
