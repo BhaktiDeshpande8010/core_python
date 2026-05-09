@@ -26,17 +26,24 @@
 
 # assign out of block
 class A:
-    id=0
-    name=""
+    id = 0
+    name = ""
 
     def show(self):
         print("I am a show method")
 
-a=A()
-A.show()
+a = A()
+a.show()
 
-a.id=102
-a.name="Java"
+# assign values outside class
+a.id = 102
+a.name = "Java"
+
+print(a.id)
+print(a.name)
+
+
+print("----------------")
 
 # default
 class car:
@@ -50,3 +57,19 @@ print(c.make)
 print(c.model)
 print(c.year)
               
+print("----------------")
+
+
+
+class bike:
+    def __init__(self, make,model,year):
+        self.make= make
+        self.model=model
+        self.year= year
+
+b=bike("honda","civic",2022)
+print(b.make)
+print(b.model)
+print(b.year)
+
+        
