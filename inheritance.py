@@ -36,7 +36,7 @@ class dog(animal):
 d = dog()
 d.eat()  # inherited
 d.bark()  # own method
-
+print("--------")
 
 # Multilevel inheritance
 class A:
@@ -56,7 +56,9 @@ c1.show1()
 c1.show2()
 c1.show3()
 
-print()
+print("-------")
+
+
 # multiple inheritance
 class father:
     def gardnening(self):
